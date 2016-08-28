@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>fontEndTony</title>
+		<link type="text/css" rel="stylesheet" href="stylesheets/reset.css"></link>
+		<link type="text/css" rel="stylesheet" href="stylesheets/common.css"></link>
+		<link type="text/css" rel="stylesheet" href="stylesheets/zxx.lib.css"></link>
+		<link type="text/css" rel="stylesheet" href="lib/jscrollpane/jquery.jscrollpane.css"></link>
+		<link rel="stylesheet" href="stylesheets/fromone.css"></link>
+		<script src="lib/jquery-1.10.2.min.js"></script>
+		<script src="lib/jscrollpane/jquery.mousewheel.js"></script>
+		<script src="lib/jscrollpane/jquery.jscrollpane.min.js"></script>
+		<script src="map_post.js"></script>
+		<script src="lib/lodash.min.js"></script>
+		<script src="lib/fromone.debug.js"></script>
+	</head>
+	<!-- main-screen -->
+	<body class="phrase" data-model="phrase" data-level="1" data-type="bottom" data-url="phrase">
+		<div id="bottom" style="display:block;">
+			<div class="phrase-area  scroll-pane" data-screen="bottom">
+				<div class="phrase-main">
+					<div class="phrase-header">
+						<header class="index-header">
+							<div class="index-logo" click-target="change-btn">Tony yang
+								<aside></aside>
+							</div>
+							<div class="index-nav index-nav-00" click-target="change-btn">首页</div>
+							<div class="index-nav index-nav-01">前端</div>
+							<div class="index-nav index-nav-02" click-target="change-btn" data-level="1" data-type="bottom" data-model="css" data-url="css">css</div>
+							<div class="index-nav index-nav-03" click-target="change-btn" data-level="1" data-type="top" data-model="essay" data-url="essay">随笔</div>
+							<div class="index-nav index-nav-04" click-target="change-btn" data-level="1" data-type="bottom" data-model="phrase" data-url="phrase">总结</div>
+							<div class="index-nav index-nav-05">相册</div>
+							<div class="index-nav index-nav-06" click-target="change-btn" data-level="1" data-type="bottom" data-model="about" data-url="about">about</div>
+						</header>
+					</div>
+					<div class="phrase-choose">
+						<div class="phrase-choose-item current" click-target="catgory-btn" data-model="phrase" data-catgory="prose">
+							<div class="from-icon">
+								<p>工作</p>
+							</div>
+						</div>
+						<div class="phrase-choose-item" click-target="catgory-btn" data-model="phrase" data-catgory="novel">
+							<div class="from-icon">
+								<p>生活</p>
+							</div>
+						</div>
+						<div class="phrase-choose-or">or</div>
+					</div>
+					<section class="phrase-list fix">
+
+					</section>
+					<div class="more-btn" click-target="more-btn" data-model="phrase">查看更多</div>
+				</div>
+			</div>
+		</div>
+		<ul class="full-screen">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<div class="loading-area">
+			<div class="spinner">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<aside>loading</aside>
+			</div>
+		</div>
+		<div class="modal-area">
+			<div class="modal-box">
+			</div>
+		</div>
+	</body>
+</html>
